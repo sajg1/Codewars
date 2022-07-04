@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d4fe9f26-91b1-4f09-a767-b9cc3a81c5f9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_7thKyu_FriendOrFoe.py</StartupFile>
+    <StartupFile>Kata.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>_7thKyu_FriendOrFoe</Name>
     <RootNamespace>_7thKyu_FriendOrFoe</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_7thKyu_FriendOrFoe.py" />
+    <Compile Include="Kata.py" />
+    <Compile Include="_7thKyu_FriendOrFoeTest.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="__pycache__\Kata.cpython-38.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

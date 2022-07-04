@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>74ea430e-8e61-4a3e-94cc-6be2b72508e1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_7thKyu_ListFiltering.py</StartupFile>
+    <StartupFile>Kata.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>_7thKyu_ListFiltering</Name>
     <RootNamespace>_7thKyu_ListFiltering</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_7thKyu_ListFiltering.py" />
+    <Compile Include="Kata.py" />
+    <Compile Include="_7thKyu_ListFilteringTest.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
