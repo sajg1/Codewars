@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ca574b3b-a3d4-4eed-8998-aaedc4a32d0b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_6thKyu_CreatePhoneNumber.py</StartupFile>
+    <StartupFile>Kata.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>_6thKyu_CreatePhoneNumber</Name>
     <RootNamespace>_6thKyu_CreatePhoneNumber</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_6thKyu_CreatePhoneNumber.py" />
+    <Compile Include="Kata.py" />
+    <Compile Include="_6thKyu_CreatePhoneNumberTest.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
