@@ -3,7 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_7thKyu_ListFiltering", "Python\_7thKyu_ListFiltering\_7thKyu_ListFiltering.pyproj", "{74EA430E-8E61-4A3E-94CC-6BE2B72508E1}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_7thKyu_FriendOrFoe", "Python\_7thKyu_FriendOrFoe\_7thKyu_FriendOrFoe.pyproj", "{D4FE9F26-91B1-4F09-A767-B9CC3A81C5F9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_6thKyu_CreatePhoneNumber", "Python\_6thKyu_CreatePhoneNumber\_6thKyu_CreatePhoneNumber.pyproj", "{CA574B3B-A3D4-4EED-8998-AAEDC4A32D0B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_7thKyu_DisemvowelTroll", "Python\_7thKyu_DisemvowelTroll\_7thKyu_DisemvowelTroll.pyproj", "{E9699146-BD6B-464D-BD3E-9969027C13D1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74EA430E-8E61-4A3E-94CC-6BE2B72508E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EA430E-8E61-4A3E-94CC-6BE2B72508E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FE9F26-91B1-4F09-A767-B9CC3A81C5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FE9F26-91B1-4F09-A767-B9CC3A81C5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA574B3B-A3D4-4EED-8998-AAEDC4A32D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA574B3B-A3D4-4EED-8998-AAEDC4A32D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9699146-BD6B-464D-BD3E-9969027C13D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9699146-BD6B-464D-BD3E-9969027C13D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
