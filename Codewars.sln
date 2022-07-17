@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_6thKyu_CreatePhoneNumber",
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_7thKyu_DisemvowelTroll", "Python\_7thKyu_DisemvowelTroll\_7thKyu_DisemvowelTroll.pyproj", "{E9699146-BD6B-464D-BD3E-9969027C13D1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "_6thKyu_DetectPangram", "Python\_6thKyu_DetectPangram\_6thKyu_DetectPangram.pyproj", "{45CA5111-D8C5-4056-8F1B-2F76CDA628D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{CA574B3B-A3D4-4EED-8998-AAEDC4A32D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9699146-BD6B-464D-BD3E-9969027C13D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9699146-BD6B-464D-BD3E-9969027C13D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CA5111-D8C5-4056-8F1B-2F76CDA628D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CA5111-D8C5-4056-8F1B-2F76CDA628D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
